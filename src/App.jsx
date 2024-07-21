@@ -16,16 +16,16 @@ import ContactForm from './contactpg.jsx';
 function App(){
   return (
     <ThemeProvider theme={theme}>
-    <Container  maxWidth="sm">
-      <Paper elevation={3} sx={{ p: 3,borderRadius:8, 
-                                
+    <Container  maxWidth="sm" >
+      <Paper elevation={3} sx={{ p: 3,borderRadius:8,                    
          marginTop:'65px',                     
-          display: 'flex',
+         display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
           height: '60vh', 
-          padding: '20px', }}>
+          padding: '20px',
+          }}>
       <Typography variant="h4" align="center" gutterBottom sx={{color:'#5c6bc0'}}>
         Connect with us
       </Typography>
